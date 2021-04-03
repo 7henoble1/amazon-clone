@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import Product from "./Product.js";
+import Product from "./Product";
 
 function Home() {
   return (
@@ -27,11 +27,12 @@ function Home() {
             image="https://images-na.ssl-images-amazon.com/images/I/61etD4-IrPL._AC_SX679_.jpg"
           />
         </div>
+
         <div className="home__row">
           <Product
             id="4903850"
             title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
-            price={1999.99}
+            price={199.99}
             rating={3}
             image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX679_.jpg"
           />
@@ -51,7 +52,15 @@ function Home() {
           />
         </div>
         
-        <div className="home__row"></div>
+        <div className="home__row">
+          <Product
+            id="90829332"
+            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
+            price={1094.98}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX679_.jpg"
+          />
+        </div>
       </div>
     </div>
   );
